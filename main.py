@@ -8,8 +8,6 @@ import random
 
 load_dotenv()
 TOKEN = os.environ['DISCORD_TOKEN']
-'''SERVER = os.environ['DISCORD_SERVER']
-'''
 
 client = commands.Bot(command_prefix=';')
 
