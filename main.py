@@ -23,9 +23,11 @@ async def on_ready():
 @client.command(name='pi', help='Sambutan untuk para mahasiswa.')
 async def pi(ctx):
     ucapan = [
-        'Selamat mengerjakan PI guys. @everyone',
-        'Tetap semangat guys, jangan menyerah. @everyone',
-        'GASS terus aja dospem sampe SIDANG !!! @everyone', 'BOT KNTL'
+        'Selamat mengerjakan PI guys @everyone',
+        'Tetap semangat guys, jangan menyerah.',
+        'GASS terus aja dospemnya sampe SIDANG !!!', 
+        'BOT KNTL',
+        'Jangan lupa etika ketika bimbingan guys'
     ]
 
     respon = random.choice(ucapan)
