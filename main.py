@@ -27,10 +27,10 @@ async def on_ready():
         print(f'- {server.name} (id:{server.id})')
         server_count = server_count + 1
 
-#@client.event
-#async def on_message(message): 
-#  if message.author == client.user:
-#      return  
+
+async def on_message(message): 
+  if message.author == client.user:
+      return  
 
 @client.command(name='pi', help='Sambutan untuk para mahasiswa.')
 async def pi(ctx):
